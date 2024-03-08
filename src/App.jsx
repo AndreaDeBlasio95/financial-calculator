@@ -18,7 +18,7 @@ function App() {
         // Spread the previous input state
         ...prevInput,
         // Update the changed input - only the changed input will be updated
-        [inputIdentifier]: newValue,
+        [inputIdentifier]: +newValue, // Convert to number
       };
     });
   }
