@@ -130,3 +130,38 @@ button:focus-visible {
 .submit-button:active {
   background-color: #004080;
 }
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.results-table th,
+.results-table td {
+  padding: 10px;
+  border: 1px solid #5b7565;
+}
+
+.results-table th {
+  background-color: #2ad760;
+  font-weight: bold;
+  text-align: left;
+}
+
+.results-table tbody tr:nth-child(even) {
+  background-color: #6fd37e;
+}
+
+.results-table tbody tr:hover {
+  background-color: #0f61be;
+}
+
+.results-table td {
+  font-size: 14px;
+}
+
+.results-table tfoot td {
+  border-top: 1px solid #6d706e;
+  font-weight: bold;
+}
