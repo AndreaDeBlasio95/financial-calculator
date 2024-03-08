@@ -30,11 +30,6 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -65,4 +60,72 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.header {
+  border-radius: 8px;
+  background-color: #333; /* Background color for the header */
+  color: #fff; /* Text color for the header */
+  padding: 20px; /* Add padding for better visual appearance */
+  position: relative; /* Fix the header at the top of the screen */
+  width: 100%; /* Take the full width of the screen */
+  z-index: 100; /* Ensure it appears above other content */
+}
+
+.header-title {
+  top: 100px;
+  font-weight: bold; /* Make the title bold */
+}
+
+.user-input {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-group p {
+  margin: 10px;
+}
+
+.input-group label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+/* Button Styles */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:active {
+  background-color: #004080;
 }
